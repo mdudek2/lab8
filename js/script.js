@@ -3,8 +3,8 @@ function init(){
   
   function displayText(){
     var textbox = document.getElementById('entryinput');
-	document.getElementById('textoutput').innerHTML = textbox.value;
-	alert("Maks Dudek: " + textbox.value);
+    document.getElementById('textoutput').innerHTML = textbox.value;
+    alert("Maks Dudek: " + textbox.value);
   }
 
   alertbutton.addEventListener('click', displayText);
